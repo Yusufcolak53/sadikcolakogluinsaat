@@ -1,0 +1,175 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.aa{ background-size: cover;
+     min-height: 99.5vh;
+	position: relative;
+}
+.navbar a{
+	font-weight: 700;
+
+}
+.navbar li{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.navbar-nav{
+	margin-left:25rem;
+}
+.custom-link{
+	background-color: #E3000F;
+}
+.navbar-brand{
+	margin: 1.4rem 2rem 2rem 2rem;
+}
+.custom-nav-images{
+	width: 240px;
+	height: 60px;
+	margin-left: 2rem;
+}
+nav a:hover{
+	color: #E3000F;
+}
+.title{ 
+	margin-top: 18rem;
+	margin-left: 25rem;
+	border-left:10px solid #E3000F ;
+   padding-left: 1.5rem;
+   
+}
+.title h1{
+	font-size: 3.2rem;
+	font-weight: 700;
+}
+.custom-section{
+	display: flex;
+	margin-top: 10rem;
+	justify-content: center;
+	padding-bottom: 5rem;
+	
+}
+.custom-section p{
+	opacity: 0.8;
+	font-size: 1.1rem;
+	padding-top: 3rem;
+	
+}
+.background-color-h2{
+  background-color: #E3000F;
+  padding: 1rem;
+  color: #fff;
+  font-size: 4rem;
+	font-weight: 700;
+  
+}
+.custom-section h2{
+	margin-bottom: 2rem;
+	font-size: 3.7rem;
+	font-weight: 700;
+}
+.custom-section p{
+	line-height: 1.9rem;
+	margin-bottom: 5rem;
+}
+.section-img img{
+	width: 550px;
+	height: 600px ;
+	margin-left: 5rem;
+}
+.custom-section a{
+	color: black;
+	font-size: 1.3rem;
+	font-weight: 600;
+	border: 5px solid black;
+	padding:1rem 3rem;
+	
+}
+.project{
+	background-color: #E3000F;
+	font-size: 3rem;
+	padding: 0.3rem 1.5rem;
+	font-weight: 700;
+	color: #fff;
+	margin-left: 24rem;
+	
+}
+.section-project{
+	display: flex;
+	margin-top: 7rem;
+	margin-left: 5rem;
+}
+.section-project img{
+	width: 95%;
+    height: auto;
+
+}
+.footer{
+	display: flex;
+	margin-top: 10rem;
+	justify-content: center;
+}
+.footer img{
+	margin-left: 7rem;
+	opacity: 0.2;
+	padding: 1rem;
+}
+.footer img:hover{
+	opacity: 0.9;
+}
+footer{
+	background-color: #222222;
+}
+footer div{
+	padding: 2rem;
+margin-top: 5rem;
+	text-align: center;
+	
+	
+}
